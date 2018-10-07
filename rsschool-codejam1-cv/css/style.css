@@ -1,0 +1,92 @@
+/*
+* === GENERAL ===
+*/
+* {
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, 1024px) 1fr;
+  font-family: "AvenirLTStd", "Tahoma", sans-serif;
+  background-image: url(/rsschool-codejam1-cv/img/bg_pattern.png);
+  background-attachment: fixed;
+}
+
+.content {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-row-gap: 1em;
+  justify-items: center;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  background-color: #ffffffb6;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 1;
+  color: #ff0000;
+}
+
+hr {
+  width: 70%;
+  height: 2px;
+  margin: 20px auto;
+  background-color: #2196F3;
+}
+
+/*
+* === HEADER ===
+*/
+.photo {
+  width: 100%;
+  min-width: 10%;
+  max-width: 800px;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.photo figcaption {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*
+* === ADDRESS ===
+*/
+.address p {
+  padding: 0.5em;
+  font-style: normal;
+}
+
+/*
+* === MAIN ===
+*/
+.main .section header {
+  margin: 1em 2em 0.5em;
+  font-weight: bold;
+}
+
+.main .section > p  {
+  margin: 0 1em;
+}
+
+/*
+* === FONTS ===
+*/
+@font-face {
+  font-family: "AvenirLTStd";
+  src: url("/rsschool-codejam1-cv/fonts/AvenirLTStd-Book.otf");
+  font-style: normal;
+  font-weight: normal;
+  }
