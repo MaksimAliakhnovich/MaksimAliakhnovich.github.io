@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .wrapper {
@@ -11,7 +11,9 @@
   justify-content: center;
   align-items: stretch;
   align-content: center;
-  font-family: "AvenirLTStd", "Tahoma", sans-serif;;
+  font-family: "AvenirLTStd", "Tahoma", sans-serif;
+  background-image: url(/rsschool-codejam1-cv/img/white-paper.png); /* Абсолютный путь к фоновому изображению background.png */
+  background-attachment: fixed; /* Изображение зафиксировано */
 }
 
 .header,
@@ -42,6 +44,7 @@ hr {
 }
 
 .photo figcaption {
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -57,11 +60,13 @@ hr {
 * === MAIN ===
 */
 .main .section header {
-  margin: 1em;
+  margin: 1em 2em 0.5em;
   font-weight: bold;
 }
 
-
+.main .section > p  {
+  margin: 0 1em;
+}
 
 @font-face {
   font-family: "AvenirLTStd";
