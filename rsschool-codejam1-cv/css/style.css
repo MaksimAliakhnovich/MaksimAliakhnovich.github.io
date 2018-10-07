@@ -1,6 +1,8 @@
+/*
+* === GENERAL ===
+*/
 * {
   margin: 0;
-  /* border: 1px solid black; */
 }
 
 .wrapper {
@@ -19,7 +21,7 @@
   justify-content: center;
   align-items: stretch;
   align-content: center;
-  background-color: #fffff0;
+  background-color: #ffffffb6;
 }
 
 a {
@@ -79,6 +81,9 @@ hr {
   margin: 0 1em;
 }
 
+/*
+* === FONTS ===
+*/
 @font-face {
   font-family: "AvenirLTStd";
   src: url("/rsschool-codejam1-cv/fonts/AvenirLTStd-Book.otf");
