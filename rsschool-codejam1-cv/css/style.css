@@ -6,21 +6,32 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr minmax(min-content, 1024px) 1fr;
+  font-family: "AvenirLTStd", "Tahoma", sans-serif;
+  background-image: url(/rsschool-codejam1-cv/img/bg_pattern.png);
+  background-attachment: fixed;
+}
+
+.content {
+  grid-column: 2 / 3;
+  display: grid;
   grid-row-gap: 1em;
   justify-items: center;
   justify-content: center;
   align-items: stretch;
   align-content: center;
-  font-family: "AvenirLTStd", "Tahoma", sans-serif;
-  background-image: url(/rsschool-codejam1-cv/img/white-paper.png); /* Абсолютный путь к фоновому изображению background.png */
-  background-attachment: fixed; /* Изображение зафиксировано */
+  background-color: #fffff0;
 }
 
-.header,
-.address,
-.main,
-.footer {
-  grid-column: 2 / 3;
+a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 1;
+  color: #ff0000;
 }
 
 hr {
